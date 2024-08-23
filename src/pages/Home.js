@@ -9,15 +9,14 @@ function Home() {
           <img className="image" src={girl} alt="girlimg" />
         </div>
 
-        <div className="social-icons"></div>
-
         <div className="home-content">
           <div className="text">
             <h1>Hi There!</h1>
             <h3> I'm Enise Aslan</h3>
             <div className="animation">
-             
-              <p>This is a portfolio project.</p>
+              <p>
+                This is a<br /> portfolio project.
+              </p>
             </div>
           </div>
         </div>

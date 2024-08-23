@@ -14,10 +14,12 @@ function About() {
           <br />
           <br />
           Some other things that I enjoy to do!
-          <span className="animation">
+          <div className="animation">
+          <p >
             ~ playing games <br />~ reading books
-            <br/>~ designing characters
-          </span>
+            <br />~ designing characters
+          </p>
+          </div>
         </p>
       </div>
     </div>
