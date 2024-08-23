@@ -5,29 +5,38 @@
 
   background-position: auto;
   background-repeat: no-repeat;
+  
 }
 
 html {
   font-size: 70%;
   overflow-x: hidden;
+  height: 100%;
+  
 }
 body {
-  background-color: var(--bg-color);
+  background-image: url(./img/pexels-miriamespacio-110854.jpg);
   color: var(--text-color);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:0.8;
+
+ 
 }
 .header {
   width: 100%;
   height: 50px;
-  background-color: #433d8b;
-font-size: 15px;
+  background-color: #191636;
+  font-size: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.header .link:hover{
-color:#8a6c99;
-border-bottom: 3px solid #8a6c99;
+.header .link:hover {
+  color: #354d7e;
+  border-bottom: 3px solid#354d7e;
 }
 
 .link {
@@ -42,19 +51,105 @@ border-bottom: 3px solid #8a6c99;
   border-radius: 50%;
   width: 250px;
   height: 250px;
+  box-shadow: -1px -1px 53px 2px rgba(23, 17, 62, 0.62);
+  -webkit-box-shadow: -1px -1px 53px 2px rgba(25, 16, 72, 0.62);
+  -moz-box-shadow: -1px -1px 53px 2px rgba(46, 35, 108, 0.62);
 }
-
+.aboutimage {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  width: 250px;
+  height: auto;
+  padding-right: 100px;
+}
 :root {
   --bg-color: #17153b;
   --second-bg-color: #2e236c;
-  --text-color: #c8acd6;
+  --text-color: #2f1a3a;
 }
-.container-body{
-
-    background-color:#8a6c99;
-    width: 800px;
-    height: 500px;
-   justify-content: center;
-align-items: center;
+.container-body {
+  background-color: #a596c6;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  border-style: double;
 }
 
+.aboutcard {
+  background-color: #8e86bb;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  border-radius: 10px;
+  border-style: double;
+  background-image: url(./img/flower.png);
+  background-position: top right;
+  background-size: 50px 50px;
+}
+
+.home-content {
+  flex-direction: column;
+
+  justify-content: center;
+  text-align: left;
+  margin-left: 50px;
+  display: inline-block;
+  align-content: space-around;
+}
+.main {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 700px;
+}
+.animation {
+  letter-spacing: 10px;
+  font-family: monospace;
+  border-right: 2px solid;
+  width: 800px;
+
+  
+  display: flex;
+}
+
+.animation p{
+  width: 100%;
+  animation: typing 2s steps(20), cursor 0.2s step-end infinite alternate,
+  cursorFadeOut 2s steps(1) forwards;
+overflow: hidden;
+white-space:nowrap;
+font-size: 15px;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes cursorFadeOut {
+  0% {
+    border-color: #2e236c;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.text {
+  font-size: 30px;
+  padding-left: 5px;
+  gap: 10rem;
+  flex-direction: column;
+}
+.contactcard {
+
+
+}
