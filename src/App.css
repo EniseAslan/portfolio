@@ -274,3 +274,13 @@ form button:hover {
 color: rgb(189, 23, 23);
 
 }
+.language-switcher{
+margin-bottom:400px ;
+
+}
+.lngbtn{
+  background-color: #373350;
+  color: aliceblue;
+  width: 50px;
+  
+}
