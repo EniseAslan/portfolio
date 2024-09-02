@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/Header";
 import Projects from "./pages/Projects";
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
+     
     </div>
   );
 }
